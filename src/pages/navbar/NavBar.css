@@ -1,0 +1,63 @@
+
+
+.top {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    background: #474747;
+    align-items: center;
+    border-top: 5px solid #292929;
+}
+
+svg {
+    margin-right: 7px;
+}
+
+.top a {
+    color: #fff;
+    margin: 0 10px;
+}
+.top div:first-child{
+    margin-left: 20%;
+}
+
+.top div:last-child {
+    margin-right: 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bottom div:not(:first-child):hover {
+    background: chartreuse;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.bottom_category {
+    display: flex;
+    background-color: #474747;
+    color: #fff;
+    font-size: 21px;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    margin-left: 20%;
+}
+
+.bottom_little_car {
+    margin-right: 20%; 
+}
+
+.bottom_icone_torto{
+   
+}

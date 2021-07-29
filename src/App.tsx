@@ -4,7 +4,7 @@ import NavBar from "./pages/navbar/NavBar";
 function App() {
   return (
     <div>
-      <NavBar />
+        <NavBar />
       <div > Hello World </div>
     </div>
   );

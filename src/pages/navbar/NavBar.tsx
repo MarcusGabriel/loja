@@ -3,7 +3,7 @@ import { FaUssunnah, FaVaadin, FaXbox, FaAlignRight, FaAngleDoubleUp, FaBars } f
 
 function NavBar() {
     return (
-        <div>
+        <nav>
             <div className="top">
                 <div>
                     <a href="">
@@ -27,10 +27,85 @@ function NavBar() {
             </div>
             <div className="bottom">
                 <div className="bottom_category">
-                    <div>
-                        <FaBars />
+                    <div className="title">
+                        <div>
+                            <FaBars />
+                        </div>
+                        Categorias
                     </div>
-                    Categorias
+                    <div className="container">
+                        <nav>
+                            <ul>
+                                <li>
+                                    Massa Muscular
+                                    <ul>
+                                        <li>Whey Protein</li>
+                                        <li>Whey Protein Isolado</li>
+                                        <li>Proteínas</li>
+                                        <li>Aminoácidos</li>
+                                        <li>BCAA</li>
+                                        <li>Hipercalóricos</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Energia e resistencia
+                                    <ul>
+                                        <li>Whey Protein</li>
+                                        <li>Whey Protein Isolado</li>
+                                        <li>Proteínas</li>
+                                        <li>Aminoácidos</li>
+                                        <li>BCAA</li>
+                                        <li>Hipercalóricos</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Emagrecimento
+                                    <ul>
+                                        <li>Whey Protein</li>
+                                        <li>Whey Protein Isolado</li>
+                                        <li>Proteínas</li>
+                                        <li>Aminoácidos</li>
+                                        <li>BCAA</li>
+                                        <li>Hipercalóricos</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Fitoterápio e vitaminas
+                                    <ul>
+                                        <li>Whey Protein</li>
+                                        <li>Whey Protein Isolado</li>
+                                        <li>Proteínas</li>
+                                        <li>Aminoácidos</li>
+                                        <li>BCAA</li>
+                                        <li>Hipercalóricos</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Saude e bem estar
+                                    <ul>
+                                        <li>Whey Protein</li>
+                                        <li>Whey Protein Isolado</li>
+                                        <li>Proteínas</li>
+                                        <li>Aminoácidos</li>
+                                        <li>BCAA</li>
+                                        <li>Hipercalóricos</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Acessórios esportivos
+                                    <ul>
+                                        <li>Whey Protein</li>
+                                        <li>Whey Protein Isolado</li>
+                                        <li>Proteínas</li>
+                                        <li>Aminoácidos</li>
+                                        <li>BCAA</li>
+                                        <li>Hipercalóricos</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
                 </div>
                 <div>Promoções</div>
                 <div>Marcas</div>
@@ -44,7 +119,7 @@ function NavBar() {
                     R$ 0,00
                 </div>
             </div>
-        </div>
+        </nav>
     );
 }
 
